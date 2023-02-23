@@ -40,7 +40,8 @@ const Navbar = () => {
         </ul>
 
         {/* Social Icons */}
-        <div className='flex fixed flex-col top-[35%] left-0'>
+        <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
+            {/* hidden and only shows when larger screens (1024px) */}
             <ul>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gradient-to-r from-orange-600 via-yellow-500 to-yellow-400'>
                     <a className='flex justify-between items-center w-full text-gray-300'

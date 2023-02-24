@@ -18,7 +18,7 @@ const About = () => {
                     </div>
                     <div>
                         <p>
-                        I am proficient in programming languages such as HTML, CSS, and JavaScript, which allows me to create visually appealing and interactive user interfaces that enhance the overall user experience. My deep understanding of user behavior and the psychology behind it enables me to design interfaces that are intuitive, easy to navigate, and visually stunning. In addition, my knowledge of various marketing techniques and platforms helps me create marketing campaigns that effectively target and engage specific audiences, ultimately driving revenue for my clients.
+                        As a frontend developer, UI-UX designer, and marketing strategist, I possess a unique blend of technical, creative, and analytical skills.I am proficient in programming languages such as HTML, CSS, and JavaScript, which allows me to create visually appealing and interactive user interfaces that enhance the overall user experience. My deep understanding of user behavior and the psychology behind it enables me to design interfaces that are intuitive, easy to navigate, and visually stunning. In addition, my knowledge of various marketing techniques and platforms helps me create marketing campaigns that effectively target and engage specific audiences, ultimately driving revenue for my clients.
                         </p>
                     </div>
                 </div>

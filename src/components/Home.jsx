@@ -10,7 +10,9 @@ const Home = () => {
             <p className='text-yellow-500'>Hi my name is</p>
             <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>Donald Jeoffrey</h1>
             <h2 className='text-4xl sm:text7xl font-bold text-[#8892b0]'>I'm a frontend Developer, UI/UX Designer, Marketing Strategist</h2>
-            <p className='text-[#8892b0] py-4 max-w-[700px]'>As a frontend developer, UI-UX designer, and marketing strategist, I possess a unique blend of technical, creative, and analytical skills. </p>
+            <p className='text-[#8892b0] py-4 max-w-[700px]'>
+            Frontend developer by day, UI/UX designer by night, and marketing strategist in my dreams (or nightmares, depending on the day). I'm a triple threat, like Beyoncé, but with code, design, and spreadsheets. I turn caffeine into beautiful, functional websites and apps, and I'll probably make a pun while doing it. When I'm not pushing pixels or optimizing conversion rates, you can find me binge-watching Netflix and pretending it's market research.
+            </p>
         <div>
             <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-gradient-to-r from-orange-600 via-yellow-500 to-yellow-300 hover:border-white'>
                 View Projects 

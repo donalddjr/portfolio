@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-scroll'
 import {HiArrowNarrowRight} from 'react-icons/hi'
 
 const Home = () => {
@@ -14,12 +15,14 @@ const Home = () => {
             Frontend developer by day, UI/UX designer by night, and marketing strategist in my dreams (or nightmares, depending on the day). I'm like a mad scientist, but for websites. I mix code, design, and strategy to create digital potions that turn visitors into loyal customers. When I'm not experimenting with pixels or optimizing conversion rates, you can find me binge-watching Netflix and pretending it's market research.
             </p>
         <div>
-            <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-gradient-to-r from-orange-600 via-yellow-500 to-yellow-300 hover:border-white'>
-                View Projects 
-                <span className='group-hover:rotate-90 duration-300'>
-                <HiArrowNarrowRight className='ml-3'/>
-                </span>
-            </button>
+            <Link to="work" smooth={true} duration={500}>
+              <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-gradient-to-r from-orange-600 via-yellow-500 to-yellow-300 hover:border-white'>
+                  View Projects 
+                  <span className='group-hover:rotate-90 duration-300'>
+                  <HiArrowNarrowRight className='ml-3'/>
+                  </span>
+              </button>
+            </Link>
         </div>
         </div>
     </div>

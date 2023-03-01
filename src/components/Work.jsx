@@ -1,7 +1,6 @@
 import React from 'react'
 import WorkImg from '../assets/projects/workImg.jpeg'
 import realEstate from '../assets/projects/realestate.jpg'
-
 import { Link } from 'react-router-dom'
 
 

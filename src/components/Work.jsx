@@ -2,7 +2,15 @@ import React from 'react'
 import WorkImg from '../assets/projects/workImg.jpeg'
 import realEstate from '../assets/projects/realestate.jpg'
 
+import { Link } from 'react-router-dom'
+
+
+
+
+
 const Work = () => {
+
+
   return (
     <div name='work' className='w-full md:h-screen bg-[#08192f] text-gray-300'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
@@ -20,15 +28,19 @@ const Work = () => {
 
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
+                        <span className='text-2xl text-center font-bold text-white tracking-wider'>
                             React JS Application
                         </span>
                         <div>
+                            
+                                <button className='text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Rationale</button>
+                            
+                        
                             <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                <button className='text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
                             <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                <button className='text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
                     </div>
@@ -44,11 +56,14 @@ const Work = () => {
                             React JS Application
                         </span>
                         <div>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                        <a href="/">
+                                <button className='text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Rationale</button>
                             </a>
                             <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                <button className='text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>
+                            <a href="/">
+                                <button className='text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
                     </div>
@@ -60,15 +75,18 @@ const Work = () => {
 
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
+                        <span className='text-2xl text-center font-bold text-white tracking-wider'>
                             React JS Application
                         </span>
                         <div>
                             <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                <button className='text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Rationale</button>
                             </a>
                             <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                <button className='text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>
+                            <a href="/">
+                                <button className='text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
                     </div>
@@ -84,11 +102,14 @@ const Work = () => {
                             React JS Application
                         </span>
                         <div>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                        <a href="/">
+                                <button className='text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Rationale</button>
                             </a>
                             <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                <button className='text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>
+                            <a href="/">
+                                <button className='text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
                     </div>
@@ -100,15 +121,18 @@ const Work = () => {
 
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
+                        <span className='text-2xl text-center font-bold text-white tracking-wider'>
                             React JS Application
                         </span>
                         <div>
                             <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                <button className='text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Rationale</button>
                             </a>
                             <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                <button className='text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>
+                            <a href="/">
+                                <button className='text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
                     </div>
@@ -124,16 +148,18 @@ const Work = () => {
                             React JS Application
                         </span>
                         <div>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                        <a href="/">
+                                <button className='text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Rationale</button>
                             </a>
                             <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                <button className='text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>
+                            <a href="/">
+                                <button className='text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
                     </div>
                 </div>
-
 
             </div>
 

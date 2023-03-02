@@ -1,5 +1,6 @@
 import React from 'react'
 import WorkImg from '../assets/projects/workImg.jpeg'
+import dashboard from '../assets/projects/dashboard.jpeg'
 import realEstate from '../assets/projects/realestate.jpg'
 import { Link } from 'react-router-dom'
 
@@ -22,23 +23,23 @@ const Work = () => {
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 
                 {/* Grid Item */}
-                <div style={{backgroundImage: `url(${WorkImg})`}}  
+                <div style={{backgroundImage: `url(${dashboard})`}}  
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl text-center font-bold text-white tracking-wider'>
-                            React JS Application
+                        <span className='text-2xl text-center font-bold text-white tracking-wider p-2'>
+                            Tailwind Application 
                         </span>
                         <div>
-                            
+                            <a href="/" target={'_blank'}>
                                 <button className='text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Rationale</button>
-                            
+                            </a>
                         
-                            <a href="/">
+                            <a href="https://donaldjeoffrey.com/dmit/2033/web-application-dashboard/" target={'_blank'}>
                                 <button className='text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href="/">
+                            <a href="https://github.com/donalddjr/web-application-dashboard.git" target={'_blank'}>
                                 <button className='text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
@@ -55,7 +56,7 @@ const Work = () => {
                             React JS Application
                         </span>
                         <div>
-                        <a href="/">
+                            <a href="/">
                                 <button className='text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Rationale</button>
                             </a>
                             <a href="/">

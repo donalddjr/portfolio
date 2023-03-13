@@ -3,7 +3,11 @@ import {FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook, FaLink} from 'react-i
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import Logo from '../assets/logo-dj.png'
-import { Link } from 'react-scroll'
+import { Link as RouterLink } from 'react-scroll'
+import { Link as ScrollLink } from 'react-scroll';
+import { Link } from 'react-router-dom';
+
+
 import downloadResume from '../assets/docs/donaldsResume.pdf'
 
 
@@ -23,29 +27,29 @@ const Navbar = () => {
         {/* Menu: hidden under 750px (md) */}
         <ul className='hidden md:flex'> 
             <li>
-                <Link to="home" smooth={true} duration={500}>
+                <ScrollLink to="home" smooth={true} duration={500}>
                 Home
-                </Link>
+                </ScrollLink>
             </li>
             <li>
-                <Link to="about" smooth={true} duration={500}>
+                <ScrollLink to="about" smooth={true} duration={500}>
                 About
-                </Link>
+                </ScrollLink>
             </li>
             <li>
-                <Link to="skills" smooth={true} duration={500}>
+                <ScrollLink to="skills" smooth={true} duration={500}>
                 Skills
-                </Link>
+                </ScrollLink>
             </li>
             <li>
-                <Link to="work" smooth={true} duration={500}>
+                <ScrollLink to="work" smooth={true} duration={500}>
                 Work
-                </Link>
+                </ScrollLink>
             </li>
             <li>
-                <Link to="contact" smooth={true} duration={500}>
+                <ScrollLink to="contact" smooth={true} duration={500}>
                 Contact
-                </Link>
+                </ScrollLink>
             </li>
         </ul>
 
@@ -58,29 +62,29 @@ const Navbar = () => {
         {/* Mobile Menu */}
         <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#08192f] flex flex-col justify-center items-center'}>
             <li className='py-6 text-4xl '>
-                <Link onClick={handleClick} to="home" smooth={true} duration={500}>
+                <ScrollLink onClick={handleClick} to="home" smooth={true} duration={500}>
                 Home
-                </Link>
+                </ScrollLink>
             </li>
             <li className='py-6 text-4xl '>
-                <Link onClick={handleClick} to="about" smooth={true} duration={500}>
+                <ScrollLink onClick={handleClick} to="about" smooth={true} duration={500}>
                 About
-                </Link>
+                </ScrollLink>
             </li>
             <li className='py-6 text-4xl '>
-                <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
+                <ScrollLink onClick={handleClick} to="skills" smooth={true} duration={500}>
                 Skills
-                </Link>
+                </ScrollLink>
             </li>
             <li className='py-6 text-4xl '>
-                <Link onClick={handleClick} to="work" smooth={true} duration={500}>
+                <ScrollLink onClick={handleClick} to="work" smooth={true} duration={500}>
                 Work
-                </Link>
+                </ScrollLink>
             </li>
             <li className='py-6 text-4xl '>
-                <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
+                <ScrollLink onClick={handleClick} to="contact" smooth={true} duration={500}>
                 Contact
-                </Link>
+                </ScrollLink>
             </li>
         </ul>
 

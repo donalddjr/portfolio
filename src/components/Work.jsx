@@ -6,6 +6,7 @@ import cssGridFLexbox from '../assets/projects/css-grid-flexbox.jpeg'
 import exploreElkPoint from '../assets/projects/exploreElkPoint.jpeg'
 import realEstate from '../assets/projects/realestate.jpg'
 import { Link } from 'react-router-dom'
+import Navbar from './Navbar'
 
 
 
@@ -16,6 +17,7 @@ const Work = () => {
 
   return (
     <div name='work' className='w-full md:h-screen bg-[#08192f] text-gray-300'>
+        <Navbar />
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-yellow-600'>Work</p>
@@ -25,7 +27,7 @@ const Work = () => {
             {/* Container */}
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 
-                {/* Grid Item */}
+                {/* Grid Item - Tailwind Application*/}
                 <div style={{backgroundImage: `url(${dashboard})`}}  
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
@@ -35,7 +37,7 @@ const Work = () => {
                             Tailwind Application 
                         </span>
                         <div>
-                            <a href="/" target={'_blank'}>
+                            <a href="/rationaleTailwind">
                                 <button className='text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Rationale</button>
                             </a>
                         
@@ -59,7 +61,7 @@ const Work = () => {
                             PHP Community Gallery
                         </span>
                         <div>
-                            <a href="/">
+                            <a href="/RationaleComGal">
                                 <button className='text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Rationale</button>
                             </a>
                             <a href="https://donaldjeoffrey.com/dmit/2503/multiuser-gallery/index.php" target={'_blank'}>
@@ -82,7 +84,7 @@ const Work = () => {
                             CSS Grid & Flexbox
                         </span>
                         <div>
-                            <a href="/">
+                            <a href="/rationaleGridLayout">
                                 <button className='text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Rationale</button>
                             </a>
                             <a href="https://donaldjeoffrey.com/dmit/css-grid-lab/" target={'_blank'}>

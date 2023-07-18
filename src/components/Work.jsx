@@ -1,6 +1,7 @@
 import React from 'react'
 import WorkImg from '../assets/projects/workImg.jpeg'
 import dashboard from '../assets/projects/dashboard.jpeg'
+import wordpressEcommerceImg from '../assets/projects/wordpress-ecommerce_img.png'
 import communityGalleryImg from '../assets/projects/communityGalleryImg.jpeg'
 import cssGridFLexbox from '../assets/projects/css-grid-flexbox.jpeg'
 import exploreElkPoint from '../assets/projects/exploreElkPoint.jpeg'
@@ -28,6 +29,30 @@ const Work = () => {
 
             {/* Container */}
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+
+                {/* Grid Item - JalFam-9on9 Wordpress E-Commerce*/}
+                <div style={{backgroundImage: `url(${wordpressEcommerceImg})`}}  
+                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+
+                    {/* Hover Effects */}
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='text-2xl text-center font-bold text-white tracking-wider p-2'>
+                            Wordpress E-Commerce
+                        </span>
+                        <div>
+                            <Link to="/rationaleTailwind">
+                                <button className='text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Rationale</button>
+                            </Link>
+                        
+                            <a href="https://donaldjeoffrey.com/dmit/jalfama/" target={'_blank'}>
+                                <button className='text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>
+                            <a href="https://github.com/donalddjr/nine_on_nine.git" target={'_blank'}>
+                                <button className='text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
                 {/* Grid Item - Tailwind Application*/}
                 <div style={{backgroundImage: `url(${dashboard})`}}  

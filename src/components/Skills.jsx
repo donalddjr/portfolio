@@ -8,6 +8,10 @@ import Node from '../assets/node.png';
 import GitHub from '../assets/github.png';
 import Tailwind from '../assets/tailwind.png';
 import Wordpress from '../assets/wordpress.png';
+import PHP from '../assets/php.png';
+import MySQL from '../assets/mysql.png';
+
+
 
 
 
@@ -36,6 +40,10 @@ const Skills = () => {
                   <p className='my-4'>JAVASCRIPT</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={PHP} alt="HTML icon" />
+                  <p className='my-4'>PHP</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={ReactImg} alt="HTML icon" />
                   <p className='my-4'>REACT</p>
               </div>
@@ -54,6 +62,10 @@ const Skills = () => {
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={Wordpress} alt="HTML icon" />
                   <p className='my-4'>WORDPRESS</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={MySQL} alt="HTML icon" />
+                  <p className='my-4'>MySQL</p>
               </div>
           
         </div>

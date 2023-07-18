@@ -8,12 +8,14 @@ import exploreElkPoint from '../assets/projects/exploreElkPoint.jpeg'
 import realEstate from '../assets/projects/realestate.jpg'
 import desktopImg from '../assets/projects/tailwind/dashboard-desktop.png'
 import mobileImg from '../assets/projects/tailwind/dashboard-mobile.png'
+import { Link } from 'react-router-dom';
+
 
 
 const RationaleTailwind = () => {
   
   return (
-    <div name='RationaleTailwind' className='w-full md:h-screen bg-[#08192f] text-gray-300'>
+    <div name='RationaleTailwind' className='w-full md:min-h-screen bg-[#08192f] text-gray-300'>
     <Navbar />
     <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-8'>

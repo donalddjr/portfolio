@@ -5,15 +5,17 @@ import communityGalleryImg from '../assets/projects/communityGalleryImg.jpeg'
 import cssGridFLexbox from '../assets/projects/css-grid-flexbox.jpeg'
 import exploreElkPoint from '../assets/projects/exploreElkPoint.jpeg'
 import realEstate from '../assets/projects/realestate.jpg'
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
 import Navbar from './Navbar'
+import RationaleTailwind from './RationaleTailwind'
+import { useNavigate } from "react-router-dom";
+
 
 
 
 
 
 const Work = () => {
-
 
   return (
     <div name='work' className='w-full md:h-screen bg-[#08192f] text-gray-300'>
@@ -37,9 +39,9 @@ const Work = () => {
                             Tailwind Application 
                         </span>
                         <div>
-                            <a href="/rationaleTailwind">
+                            <Link to="/rationaleTailwind">
                                 <button className='text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Rationale</button>
-                            </a>
+                            </Link>
                         
                             <a href="https://donaldjeoffrey.com/dmit/2033/web-application-dashboard/" target={'_blank'}>
                                 <button className='text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
@@ -61,9 +63,9 @@ const Work = () => {
                             PHP Community Gallery
                         </span>
                         <div>
-                            <a href="/RationaleComGal">
+                            <Link to="/RationaleComGal">
                                 <button className='text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Rationale</button>
-                            </a>
+                            </Link>
                             <a href="https://donaldjeoffrey.com/dmit/2503/multiuser-gallery/index.php" target={'_blank'}>
                                 <button className='text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
@@ -84,9 +86,9 @@ const Work = () => {
                             CSS Grid & Flexbox
                         </span>
                         <div>
-                            <a href="/rationaleGridLayout">
+                            <Link to="/rationaleGridLayout">
                                 <button className='text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Rationale</button>
-                            </a>
+                            </Link>
                             <a href="https://donaldjeoffrey.com/dmit/css-grid-lab/" target={'_blank'}>
                                 <button className='text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
@@ -107,9 +109,9 @@ const Work = () => {
                             Explore Elk Point
                         </span>
                         <div>
-                            <a href="/">
+                            <Link to="/">
                                 <button className='text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Rationale</button>
-                            </a>
+                            </Link>
                             <a href="https://donaldjeoffrey.com/dmit/1528/exploreelkpoint/" target={'_blank'}>
                                 <button className='text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
@@ -120,51 +122,7 @@ const Work = () => {
                     </div>
                 </div>
 
-                {/* Grid Item */}
-                <div style={{backgroundImage: `url(${WorkImg})`}}  
-                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
-                    {/* Hover Effects */}
-                    <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl text-center font-bold text-white tracking-wider'>
-                            React JS Application
-                        </span>
-                        <div>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Rationale</button>
-                            </a>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                {/* Grid Item */}
-                <div style={{backgroundImage: `url(${realEstate})`}}  
-                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-
-                    {/* Hover Effects */}
-                    <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                            React JS Application
-                        </span>
-                        <div>
-                        <a href="/">
-                                <button className='text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Rationale</button>
-                            </a>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
 
             </div>
 

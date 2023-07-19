@@ -18,14 +18,14 @@ const RationaleGridLayout = () => {
   return (
     <div name='rationaleGridLayout' className='rationaleGridLayout w-full md:h-screen bg-[#08192f] text-gray-300'>
     <Navbar />
-    <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+    <div className='max-w-[800px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-8'>
             <p className='text-4xl font-bold inline  text-gray-300'>Dimensional Layout Design</p>
             <p className='py-6'></p>
         </div>
 
         {/* Container */}
-        <div className='grid sm:grid-cols-2 md:grid-cols-2 gap-4'>
+        <div className='grid sm:grid-cols-1 md:grid-cols-1 gap-4'>
 
           <div>
             <h2 className='text-2xl font-bold inline border-b-4 text-gray-300 border-yellow-600'>Role</h2>
